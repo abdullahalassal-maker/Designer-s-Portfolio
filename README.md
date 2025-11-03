@@ -20,10 +20,10 @@ This is my personal **portfolio website** — designed and developed to showcase
 - GitHub Pages (for hosting)
 
 ## 🔗 Live Demo
-👉 [View Project](https://abdullahalassal-maker.github.io/portfolio/)
+👉 [View Project](https://abdullahalassal-maker.github.io/Designer-s-Portfolio/)
 
 ## 📬 Contact
 If you’d like to connect or collaborate, feel free to reach out!  
-📧 **abdullahalassal.dev@gmail.com**  
-💼 [LinkedIn](https://www.linkedin.com/in/abdullahalassal)  
+📧 **abdullahalassal.1995@gmail.com**  
+💼 [LinkedIn](https://www.linkedin.com/in/abdullah-alassal-40570138b/)  
 
