@@ -270,3 +270,20 @@ header .bx-menu {
     opacity: 1;
     transform: translateY(0);
 }
+.social-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  font-size: 1.8rem;
+  color: #beaca7;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: var(--gradient-bg); 
+  transform: scale(1.2);
+}
