@@ -221,34 +221,45 @@ header .bx-menu {
 }
 
 /* Footer */
-footer {
-    margin-top: auto;
-    padding: 30px 50px;
-    background: rgba(0,0,0,0.3);
-    text-align: center;
-    color: var(--text-color);
-}
+.footer {
+  margin-top: auto;
+  padding: 30px 50px;
+  background: rgba(0,0,0,0.3);
+  color: var(--text-color);
 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; 
+}
+.footer-social {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+.footer-social a {
+  color: #fff;
+  font-size: 1.4rem;
+  transition: 0.3s;
+}
+.footer-social a:hover {
+  color: var(--main-color);
+  transform: scale(1.2);
+}
 .footer-icontop a {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    padding: .8rem;
-    background-color: var(--second-bd-color);
-    border-radius: .8rem;
-    transition: 0.5s ease;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: .8rem;
+  background-color: var(--second-bd-color);
+  border-radius: .8rem;
+  transition: 0.5s ease;
 }
 
 .footer-icontop a:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 0.5rem #000;
+  transform: scale(1.1);
+  box-shadow: 0 0 0.5rem #000;
 }
-
-.footer-icontop a i {
-    font-size: 1rem;
-    color: #fff;
-}
-
 /* Animations */
 .fade-up {
     opacity: 0;
